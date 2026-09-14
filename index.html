@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie – Tabele HTML i CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Zadanie: Tabela HTML + CSS</h1>
+    <table border="1px solid black" style="padding: 4px; border-collapse: collapse;">
+        <thead>
+            <tr>
+                <!-- Tutaj wstaw nagłówki kolumn -->
+                <th>Poniedziałek</th>
+                <th>Wtorek</th>
+                <th>Środa</th>
+                <th colspan="2">Czwartek</th>
+                <th colspan="2">Piątek</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Tutaj wstaw wiersze z danymi -->
+            <!-- Pamiętaj o użyciu rowspan i colspan -->
+            <tr>
+                <td rowspan="2">Matematyka</td>
+                <td>Polski</td>
+                <td>Polski</td>
+                <td>WI</td>
+                <td>WI</td>
+                <td>FIzyka</td>
+                <td>Chemia</td>
+            </tr>
+            <tr>
+                <td>Polski</td>
+                <td>Polski</td>
+                <td>WI</td>
+                <td>WI</td>
+                <td>FIzyka</td>
+                <td>Chemia</td>
+            </tr>
+                <tr>
+                <td>Matematyka</td>
+                <td>Polski</td>
+                <td>Polski</td>
+                <td>WI</td>
+                <td>WI</td>
+                <td>FIzyka</td>
+                <td>Chemia</td>
+            </tr>
+            <tr id="obiad">  
+            <td colspan="7">Przerwa obiadowa 13:15-13:30</td>
+            </tr>  
+            </tr>
+                <tr>
+                <td>Matematyka</td>
+                <td>Polski</td>
+                <td>Polski</td>
+                <td>WI</td>
+                <td>WI</td>
+                <td>FIzyka</td>
+                <td>Chemia</td>
+            </tr>
+        </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
